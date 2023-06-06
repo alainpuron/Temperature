@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+
+
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-style: oblique;
+  color: black;
+  background-image: radial-gradient(circle at center,
+      black 1px,
+      transparent 0);
+  background-size: 1rem 1rem;
+/* filter: grayscale(100%); */
+filter: blur(0.5px);
+
+
+}
+
+#form-container {
+  margin: auto;
+  text-align: center;
+  margin-top: 5%;
+  font-size: 25px;
+
+}
+
+#form-container>input {
+  width: 30px;
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+#content {
+  
+  border: solid rgb(0, 0, 0) 10px;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.71);
+  margin: auto;
+  text-align: center;
+  padding: 100px;
+  width: fit-content;
+  margin-top: 10%;
+  border-radius: 15%;
+  background: transparent;
+}
+
+#result {
+  color: transparent;
+  font-size: 25px;
+}
+
+button {
+  margin: auto;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: transparent;
+  border: black solid 3px;
+
+
+}
